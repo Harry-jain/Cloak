@@ -1,0 +1,33 @@
+{
+  "name": "claok",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "p2p",
+    "messaging",
+    "bluetooth",
+    "android",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Claok - Anonymous P2P Messaging App",
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0"
+  }
+}
